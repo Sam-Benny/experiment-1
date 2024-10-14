@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    float a,b,c;
+    printf("enter the num:");
+    scanf("%f",&a);
+    if(a<=10000)
+    {
+        b=0.02*a;
+        c=0.08*a;
+       printf("GROSS SALARY: %.0f",a+b+c);
+    }
+    else if(a<=20000)
+    {
+        b=.025*a;
+        c=.09*a;
+        printf("GROSS SALARY: %.0f",a+b+c);
+    }
+    else if(a>20000)
+    {
+        b=.03*a;
+        c=.095*a;
+        printf("GROSS SALARY: %.0f",a+b+c);
+    }
+}
