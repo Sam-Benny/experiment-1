@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+  int a;
+  printf("Enter the num:");
+  scanf("%d",&a);
+
+if(a>2)
+ {
+   if(a>100)
+    {
+      printf("%d",a%100);
+    }
+   else
+    {
+      printf("%d",a);
+    }
+ }
+else
+ {
+  printf("The input is less than 2");
+ }
+}
